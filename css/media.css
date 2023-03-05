@@ -1,0 +1,45 @@
+@media (max-width: 1230px) {
+	.nav__list {
+		display: none;
+	}
+
+	.nav__login {
+		display: none;
+	}
+
+	.nav__button {
+		display: block;
+	}
+
+	.nav.open .nav__list{
+		position: fixed;
+		display: block;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+
+		padding: 46px 30px;
+		background-color: rgb(184, 198, 222);
+		font-weight: 500;
+		font-size: 34px;
+		display: flex;
+		flex-direction: column;
+		row-gap: 5px;
+	}
+
+	.nav__logo {
+		padding-left: 0;
+	}
+
+	.nav {
+		padding-top: 0;
+	}
+
+	.nav__button{
+		position: fixed;
+		z-index: 9;
+		top: 46px;
+		right: 30px;
+	}
+}
